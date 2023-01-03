@@ -11,7 +11,7 @@ import SwiftUI
 struct Allison_Vapor_iOS_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SongList()
         }
     }
 }

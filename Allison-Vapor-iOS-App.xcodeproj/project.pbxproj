@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		1CA23880295E3A53000C83D4 /* Allison_Vapor_iOS_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2387F295E3A53000C83D4 /* Allison_Vapor_iOS_AppApp.swift */; };
-		1CA23882295E3A53000C83D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA23881295E3A53000C83D4 /* ContentView.swift */; };
+		1CA23882295E3A53000C83D4 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA23881295E3A53000C83D4 /* SongList.swift */; };
 		1CA23884295E3A54000C83D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA23883295E3A54000C83D4 /* Assets.xcassets */; };
 		1CA23887295E3A54000C83D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA23886295E3A54000C83D4 /* Preview Assets.xcassets */; };
+		1CA23892295E3B4C000C83D4 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA23891295E3B4C000C83D4 /* Song.swift */; };
+		1CA23894295E3BD8000C83D4 /* SongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA23893295E3BD8000C83D4 /* SongViewModel.swift */; };
+		1CA23896295E3D81000C83D4 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA23895295E3D81000C83D4 /* HttpClient.swift */; };
+		1CA23898295E4C3F000C83D4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA23897295E4C3F000C83D4 /* Constants.swift */; };
+		1CA2389A295E5CE2000C83D4 /* ModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA23899295E5CE2000C83D4 /* ModelType.swift */; };
+		1CA2389C295E5E24000C83D4 /* AddUpdateSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2389B295E5E24000C83D4 /* AddUpdateSong.swift */; };
+		1CA2389E295E5E60000C83D4 /* AddUpdateSongViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2389D295E5E60000C83D4 /* AddUpdateSongViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CA2387C295E3A53000C83D4 /* Allison-Vapor-iOS-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allison-Vapor-iOS-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA2387F295E3A53000C83D4 /* Allison_Vapor_iOS_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allison_Vapor_iOS_AppApp.swift; sourceTree = "<group>"; };
-		1CA23881295E3A53000C83D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CA23881295E3A53000C83D4 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
 		1CA23883295E3A54000C83D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CA23886295E3A54000C83D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CA23891295E3B4C000C83D4 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		1CA23893295E3BD8000C83D4 /* SongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongViewModel.swift; sourceTree = "<group>"; };
+		1CA23895295E3D81000C83D4 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		1CA23897295E4C3F000C83D4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1CA23899295E5CE2000C83D4 /* ModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelType.swift; sourceTree = "<group>"; };
+		1CA2389B295E5E24000C83D4 /* AddUpdateSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSong.swift; sourceTree = "<group>"; };
+		1CA2389D295E5E60000C83D4 /* AddUpdateSongViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUpdateSongViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,11 @@
 		1CA2387E295E3A53000C83D4 /* Allison-Vapor-iOS-App */ = {
 			isa = PBXGroup;
 			children = (
+				1CA2388D295E3A88000C83D4 /* Models */,
+				1CA2388F295E3A9C000C83D4 /* Views */,
+				1CA2388E295E3A91000C83D4 /* View Models */,
+				1CA23890295E3AA4000C83D4 /* Utilities */,
 				1CA2387F295E3A53000C83D4 /* Allison_Vapor_iOS_AppApp.swift */,
-				1CA23881295E3A53000C83D4 /* ContentView.swift */,
 				1CA23883295E3A54000C83D4 /* Assets.xcassets */,
 				1CA23885295E3A54000C83D4 /* Preview Content */,
 			);
@@ -65,6 +82,42 @@
 				1CA23886295E3A54000C83D4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CA2388D295E3A88000C83D4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CA23891295E3B4C000C83D4 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1CA2388E295E3A91000C83D4 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				1CA23893295E3BD8000C83D4 /* SongViewModel.swift */,
+				1CA2389D295E5E60000C83D4 /* AddUpdateSongViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		1CA2388F295E3A9C000C83D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CA23881295E3A53000C83D4 /* SongList.swift */,
+				1CA2389B295E5E24000C83D4 /* AddUpdateSong.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CA23890295E3AA4000C83D4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1CA23897295E4C3F000C83D4 /* Constants.swift */,
+				1CA23895295E3D81000C83D4 /* HttpClient.swift */,
+				1CA23899295E5CE2000C83D4 /* ModelType.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CA23882295E3A53000C83D4 /* ContentView.swift in Sources */,
+				1CA23896295E3D81000C83D4 /* HttpClient.swift in Sources */,
+				1CA2389E295E5E60000C83D4 /* AddUpdateSongViewModel.swift in Sources */,
+				1CA2389C295E5E24000C83D4 /* AddUpdateSong.swift in Sources */,
+				1CA23892295E3B4C000C83D4 /* Song.swift in Sources */,
+				1CA23894295E3BD8000C83D4 /* SongViewModel.swift in Sources */,
+				1CA23882295E3A53000C83D4 /* SongList.swift in Sources */,
+				1CA2389A295E5CE2000C83D4 /* ModelType.swift in Sources */,
 				1CA23880295E3A53000C83D4 /* Allison_Vapor_iOS_AppApp.swift in Sources */,
+				1CA23898295E4C3F000C83D4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
